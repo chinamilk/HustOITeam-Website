@@ -1,0 +1,17 @@
+*{ font-family: "微软雅黑";}
+a{ text-decoration: none;}
+.back-index{ bottom:60px;}
+.back-index i{
+    transform:none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+    -o-transform: none;
+}
+.navTitle{ font-size:17px;}
+@media (min-width: 1150px){
+    .navDefined {padding-left: 140px;}
+}
+@media (min-width: 768px){
+    .imagePartten { background-image: url(../images/hustbg2.jpg); }
+}

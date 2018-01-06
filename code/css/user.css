@@ -1,0 +1,25 @@
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {width: 12px;}
+/* 滚动槽 */
+::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.21);border-radius: 2px;}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {border-radius: 2px;background: rgba(133, 192, 130, 0.65);-webkit-box-shadow: inset 0 0 3px rgba(132, 188, 128, 0.71);}
+::-webkit-scrollbar-thumb:window-inactive {background: rgba(183, 208, 183, 0.74);} 
+
+/* sidenav */
+ul.nav-tabs{width: 140px;margin-top: 20px;border-radius: 4px;border: 1px solid #ddd;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);}
+ul.nav-tabs li{margin: 0;border-top: 1px solid #ddd;}
+ul.nav-tabs li:first-child{border-top: none;}
+ul.nav-tabs li a{margin: 0;padding: 8px 16px;border-radius: 0;}
+ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{color: #fff;background: #43805f;border: 1px solid #43805f;}
+ul.nav-tabs li:first-child a{border-radius: 4px 4px 0 0;}
+ul.nav-tabs li:last-child a{border-radius: 0 0 4px 4px;}
+ul.nav-tabs.affix{top: 60px; /* Set the top position of pinned element */}
+
+/* content list*/
+.content-list .fh5co-links li{border-top: 1px solid #ddd;display:block;padding:0;margin:0 0 .5em 0}
+.content-list .fh5co-links li a{text-decoration:underline}
+.content-list .fh5co-links li a:hover{text-decoration:none}
+#content-col-2{margin:0 auto;}
+
+.underline{border-bottom:1px solid #ddd;}

@@ -1,0 +1,13 @@
+body{
+    font-family: "微软雅黑";
+    word-break: break-all;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle !important;
+}
