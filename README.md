@@ -1,5 +1,6 @@
 # HustOITeam-Website
 华中科技大学优化与创新团队网站源码
+网址：http://msor-world.com/
 
 db：数据库文件（仅结构）
 
